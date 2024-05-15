@@ -91,7 +91,10 @@ header .toggle-contents{
 .containers1{
     background-color: #fff;
 }
-
+.containers1 h3,
+.containers1 h4 {
+    color: #4A4D60;
+}
 .containers1 p {
     border-top: 1px solid #979797;
     padding: 0.7rem 0;
