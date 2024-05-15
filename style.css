@@ -125,13 +125,18 @@ header .toggle-contents{
     }
 }
 
-@media(min-width: 1024px) {
+@media(min-width: 1014px) {
     #main{
         column-gap: 16rem;
     }
 }
-@media(min-width: 1160px) {
+@media(min-width: 1170px) {
     #main{
-        column-gap: 19rem;
+        column-gap: 17.6rem;
+    }
+}
+@media(min-width: 1260px) {
+    #main{
+        column-gap: 20rem;
     }
 }
