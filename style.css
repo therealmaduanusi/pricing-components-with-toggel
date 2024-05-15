@@ -127,6 +127,11 @@ header .toggle-contents{
 
 @media(min-width: 1024px) {
     #main{
-        column-gap: 20rem;
+        column-gap: 16rem;
+    }
+}
+@media(min-width: 1160px) {
+    #main{
+        column-gap: 19rem;
     }
 }
