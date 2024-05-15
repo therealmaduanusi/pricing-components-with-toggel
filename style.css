@@ -51,7 +51,7 @@ header .toggle-contents{
     display: flex;
     flex-direction: column;
     max-width: 300px;
-    margin: 5rem auto;
+    margin: 3.6rem auto;
     row-gap: 3rem;
     /* height: 320px; */
     /* height: 300px; Set the height of the container */
@@ -105,7 +105,7 @@ header .toggle-contents{
         background: url('/images/bg-imgDesktop-left.svg'), url('/images/bg-imgDesktop-right.svg');
         background-color: #F7F7FE;
         background-repeat: no-repeat;
-        background-position: 0%  100%, 100% 100%;
+        background-position: 0%  120%, 100% 10%;
         position: relative;
     }
     #main{
