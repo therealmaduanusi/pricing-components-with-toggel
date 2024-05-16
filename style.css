@@ -16,7 +16,7 @@ body{
     font-family: "Montserrat", sans-serif;
 }
 h1{
-    margin-top: 2.5rem;
+    margin-top: 3rem;
     color: #4A4D60;
     margin-bottom: 2.5rem;
 }
@@ -24,7 +24,7 @@ button {
     font-family: "Montserrat", sans-serif;
     background: #6d73de;
     width: 100%;
-    padding: 0.5rem 0;
+    padding: 0.7rem 0;
     border: 2px solid #6d73de;
     color: #fff;
     border-radius: 7px;
@@ -47,7 +47,7 @@ header .toggle-contents{
     column-gap: 10px;
     color: #6E728E;
     max-width: 300px;
-    margin: 1rem auto;
+    margin: 2rem auto;
 }
 header .toggle{
     background-color: #6d73de;
@@ -55,23 +55,23 @@ header .toggle{
     padding: 5px 3px;
     border-radius: 2rem;
     display: flex;
-    transition: 2s ease;
     justify-content: flex-end;
+    cursor: pointer;
+    transition: all 1s ease;
 }
 header .toggle:hover{
     opacity: 0.7;
-    transition: 0.5s ease;
-    cursor: pointer;
 }
+
+/* toggel effect */
 .toggle-state{
     background-color: #6d73de;
     width: 70px;
     padding: 5px 3px;
     border-radius: 2rem;
     display: flex;
-    transition: 2s ease;
     justify-content: flex-start;
-    /* display: none; */
+    cursor: pointer;
 }
 
 #main{
@@ -91,8 +91,11 @@ header .toggle:hover{
     padding: 0.7rem 0;
     font-weight: 600;
 }
-#main div:not(.containers1) h1 {
-    color: #F7F7FE;
+#main div:not(.containers1) p {
+    border-bottom: 1px solid #F7F7FE;
+}
+#main div:not(.containers1) h4 {
+    color: #fef7f7;
 }
 #main div:not(.containers1) button {
     background-color: #fff;
@@ -106,15 +109,16 @@ header .toggle:hover{
 }
 
 .containers{
-    padding: 1rem;
+    padding: 1.5rem;
     border-radius: 10px;
 }
 .containers h3{
-    font-size: 2rem;
-    margin: 1rem 0;
+    font-size: 3rem;
+    margin: 1.2rem 0 2.5rem;
 }
 .containers1{
     background-color: #fff;
+    box-shadow: 1px 1px 10px 2px #6e728e56;
 }
 .containers1 h3,
 .containers1 h4 {
@@ -126,9 +130,13 @@ header .toggle:hover{
     font-weight: 600;
     color: #6E728E;
 }
+.containers > p:nth-child(5) {
+    border-bottom: 1px solid #979797;
+    margin-bottom: 1.5rem;
+}
 
 
-@media (min-width: 870px) {
+@media (min-width: 1150px) {
     body{
         background: url('/images/bg-imgDesktop-left.svg'), url('/images/bg-imgDesktop-right.svg');
         background-color: #F7F7FE;
@@ -145,7 +153,7 @@ header .toggle:hover{
         position: absolute;
         width: 25%;
         padding: 1.5rem 1rem;
-        top: 31%;
+        top: 28%;
         left: 37.5%;
     }
     .containers{

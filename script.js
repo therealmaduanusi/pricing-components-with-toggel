@@ -10,6 +10,7 @@ let intMoney3 = parseFloat(money3.innerText) + 360
 
 toggleState.addEventListener('click', () => {
     let toggles = toggleState.classList.toggle('toggle-state');
+    
     if (toggles) {
         toggleState.classList.remove('toggle');
         money1.innerText = intMoney1.toFixed(2);
